@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "name":"LinkedIn",
+            "link":"https://www.linkedin.com/in/padp721/",
+            "color":"#007bb5",
+            "icon":"linkedin"
+        },
+        {
+            "name":"Instagram",
+            "link":"https://www.instagram.com/padp721/",
+            "color":"#125688",
+            "icon":"instagram"
+        },
+        {
+            "name":"Facebook",
+            "link":"https://www.facebook.com/padp721",
+            "color":"#3B5998",
+            "icon":"facebook"
+        },
+        {
+            "name":"X",
+            "link":"https://twitter.com/padp721",
+            "color":"black",
+            "icon":"x-twitter"
+        }
+    ]
+}

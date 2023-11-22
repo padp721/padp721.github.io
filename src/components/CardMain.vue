@@ -6,10 +6,12 @@ defineProps(['cardTitle', 'cardContent'])
 	<div class="row">
 		<div class="col s12 m12">
 			<div class="card hoverable">
-				<div class="card-content white-text">
+				<div class="card-content white-text center-align">
 					<span class="card-title">{{ cardTitle }}</span>
 					{{ cardContent }}<br>
-					<slot />
+					<div class="socials">
+						<slot name="socials-slot" />
+					</div>
 				</div>
 			</div>
 		</div>
@@ -20,5 +22,11 @@ defineProps(['cardTitle', 'cardContent'])
 .card {
 	background-color: #242424;
 	border-radius: 15px;
+}
+
+.socials {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 </style>

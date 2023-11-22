@@ -5,7 +5,7 @@ import socials from './common/social.json'
 
 <template>
 	<div class="container center-align">
-		<CardMain cardTitle="Welcome! Glad to see you here. :D" cardContent="Connect with me.">
+		<CardMain cardTitle="Welcome! Glad to see you here. 😁" cardContent="Connect with me.">
 			<a v-for="(social, idx) in socials.data" :key="idx" class="waves-effect waves-light btn valign-wrapper"
 				:style="{ 'background-color': social.color }" :href="social.link" target="_blank">
 				<fa-icon :icon="['fab', social.icon]" />

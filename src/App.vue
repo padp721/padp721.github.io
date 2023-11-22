@@ -11,7 +11,7 @@ import FaIcon from './components/FaIcon.vue';
 				<span>Let's Connect!</span>
 			</template>
 			<template #socials-slot>
-				<a v-for="(social, idx) in socials.data" :key="idx" class="waves-effect waves-light btn btn-icon"
+				<a v-for="(social, idx) in socials.data" :key="idx" class="waves-effect waves-light btn btn-icon" :class="{ instagram: social.icon === 'instagram' }"
 					:style="{ 'background-color': social.color }" :href="social.link" target="_blank">
 					<FaIcon :type="social.icon_type" :icon="social.icon" />
 				</a>
@@ -30,5 +30,13 @@ import FaIcon from './components/FaIcon.vue';
 	justify-content: center;
 	align-items: center;
 	border-radius: 25%;
+}
+
+.instagram {
+	background: #f09433;
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
 }
 </style>

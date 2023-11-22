@@ -4,24 +4,25 @@ import socials from './common/social.json'
 </script>
 
 <template>
-	<div class="container center-align">
+	<div class="container">
 		<CardMain cardTitle="Welcome! Glad to see you here. 😁" cardContent="Connect with me.">
-			<a v-for="(social, idx) in socials.data" :key="idx" class="waves-effect waves-light btn valign-wrapper"
-				:style="{ 'background-color': social.color }" :href="social.link" target="_blank">
-				<fa-icon :icon="['fab', social.icon]" />
-			</a>
+			<template #socials-slot>
+				<a v-for="(social, idx) in socials.data" :key="idx" class="waves-effect waves-light btn valign-wrapper"
+					:style="{ 'background-color': social.color }" :href="social.link" target="_blank">
+					<fa-icon :icon="['fab', social.icon]" />
+				</a>
+			</template>
 		</CardMain>
 	</div>
 </template>
 
 <style scoped>
 a {
+	display: flex;
 	margin: 0.15em;
-	padding: 7px;
 	font-size: 25px;
 	width: 50px;
 	height: 50px;
-	text-align: center;
-	text-decoration: none;
+	justify-content: center;
 }
 </style>

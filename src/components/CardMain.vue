@@ -8,9 +8,14 @@ defineProps(['cardTitle', 'cardContent'])
 			<div class="card hoverable">
 				<div class="card-content white-text center-align">
 					<span class="card-title">{{ cardTitle }}</span>
-					{{ cardContent }}<br>
+					<div class="card-text">
+						<slot name="card-text-slot"></slot>
+					</div>
 					<div class="socials">
-						<slot name="socials-slot" />
+						<slot name="socials-slot"></slot>
+					</div>
+					<div class="card-footer">
+						<slot name="card-footer-slot"></slot>
 					</div>
 				</div>
 			</div>
@@ -21,12 +26,21 @@ defineProps(['cardTitle', 'cardContent'])
 <style scoped>
 .card {
 	background-color: #242424;
-	border-radius: 15px;
+	border-radius: 1em;
+}
+
+.card-text {
+	margin-bottom: 0.5em;
 }
 
 .socials {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	margin-bottom: 0.5em;
+}
+
+.card-footer {
+	margin-bottom: 0.5em;
 }
 </style>

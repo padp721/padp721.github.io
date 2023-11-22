@@ -7,15 +7,19 @@ defineProps(['cardTitle', 'cardContent'])
 		<div class="col s12 m12">
 			<div class="card hoverable">
 				<div class="card-content white-text center-align">
-					<span class="card-title">{{ cardTitle }}</span>
-					<div class="card-text">
-						<slot name="card-text-slot"></slot>
-					</div>
-					<div class="socials">
-						<slot name="socials-slot"></slot>
-					</div>
-					<div class="card-footer">
-						<slot name="card-footer-slot"></slot>
+					<div class="row">
+						<div class="col s12 m12">
+							<span class="card-title">{{ cardTitle }}</span>
+							<div class="card-text">
+								<slot name="card-text-slot"></slot>
+							</div>
+							<div class="socials">
+								<slot name="socials-slot"></slot>
+							</div>
+							<div class="card-footer">
+								<slot name="card-footer-slot"></slot>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -38,6 +42,7 @@ defineProps(['cardTitle', 'cardContent'])
 	flex-direction: row;
 	justify-content: center;
 	margin-bottom: 0.5em;
+	flex-wrap: wrap;
 }
 
 .card-footer {

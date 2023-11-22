@@ -44,6 +44,13 @@
             "icon":"threads"
         },
         {
+            "name":"E-Mail",
+            "link":"mailto:anggadp91@hotmail.com",
+            "color":"crimson",
+            "icon_type":"fas",
+            "icon":"envelope"
+        },
+        {
             "name":"Telegram",
             "link":"https://t.me/padp721",
             "color":"#24a6ea",
@@ -51,11 +58,11 @@
             "icon":"telegram"
         },
         {
-            "name":"E-Mail",
-            "link":"mailto:anggadp91@hotmail.com",
-            "color":"crimson",
-            "icon_type":"fas",
-            "icon":"envelope"
+            "name":"Discord",
+            "link":"https://discordapp.com/users/318630119373799426",
+            "color":"#545df4",
+            "icon_type":"fab",
+            "icon":"discord"
         },
         {
             "name":"Spotify",

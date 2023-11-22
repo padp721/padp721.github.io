@@ -37,6 +37,13 @@
             "icon":"x-twitter"
         },
         {
+            "name":"Threads",
+            "link":"https://www.threads.net/@padp721",
+            "color":"#101010",
+            "icon_type":"fab",
+            "icon":"threads"
+        },
+        {
             "name":"Telegram",
             "link":"https://t.me/padp721",
             "color":"#24a6ea",

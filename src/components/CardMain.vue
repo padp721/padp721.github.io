@@ -3,34 +3,23 @@ defineProps(['cardTitle', 'cardContent'])
 </script>
 
 <template>
-	<div class="row">
-		<div class="col s12 m12">
-			<div class="card hoverable">
-				<div class="card-content white-text center-align">
-					<div class="row">
-						<div class="col s12 m12">
-							<span class="card-title">{{ cardTitle }}</span>
-							<div class="card-text">
-								<slot name="card-text-slot"></slot>
-							</div>
-							<div class="socials">
-								<slot name="socials-slot"></slot>
-							</div>
-							<div class="card-footer">
-								<slot name="card-footer-slot"></slot>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+	<div class="card rounded-xl p-5 text-center mt-3 mx-3 transition hover:drop-shadow-2xl">
+		<span class="text-3xl font-bold">{{ cardTitle }}</span>
+		<div class="card-text">
+			<slot name="card-text-slot"></slot>
+		</div>
+		<div class="socials">
+			<slot name="socials-slot"></slot>
+		</div>
+		<div class="card-footer">
+			<slot name="card-footer-slot"></slot>
 		</div>
 	</div>
 </template>
 
 <style scoped>
 .card {
-	background-color: #242424;
-	border-radius: 1em;
+	background-color: rgb(36, 36, 36);
 }
 
 .card-text {

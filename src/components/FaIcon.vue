@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import {
@@ -17,7 +17,13 @@ import {
     faEnvelope
 } from '@fortawesome/free-solid-svg-icons'
 
-defineProps(['type', 'icon', 'spin'])
+type Props = {
+    type: string,
+    icon: string,
+    spin?: boolean
+}
+
+defineProps<Props>()
 // Brands
 library.add(
     faXTwitter,

@@ -1,82 +1,82 @@
 {
-    "desc":"List of Angga Darma Putra's Social Media",
-    "data":[
+    "desc": "List of Angga Darma Putra's Social Media",
+    "data": [
         {
-            "name":"LinkedIn",
-            "link":"https://www.linkedin.com/in/padp721/",
-            "color":"#007bb5",
-            "icon_type":"fab",
-            "icon":"linkedin"
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/padp721/",
+            "color": "#007bb5",
+            "icon_type": "fab",
+            "icon": "linkedin"
         },
         {
-            "name":"Github",
-            "link":"https://github.com/padp721",
-            "color":"#6e5494",
-            "icon_type":"fab",
-            "icon":"github"
+            "name": "Github",
+            "url": "https://github.com/padp721",
+            "color": "#6e5494",
+            "icon_type": "fab",
+            "icon": "github"
         },
         {
-            "name":"Instagram",
-            "link":"https://www.instagram.com/padp721/",
-            "color":"#125688",
-            "icon_type":"fab",
-            "icon":"instagram"
+            "name": "Instagram",
+            "url": "https://www.instagram.com/padp721/",
+            "color": "#ffffff",
+            "icon_type": "fab",
+            "icon": "instagram"
         },
         {
-            "name":"Facebook",
-            "link":"https://www.facebook.com/padp721",
-            "color":"#3B5998",
-            "icon_type":"fab",
-            "icon":"facebook"
+            "name": "Facebook",
+            "url": "https://www.facebook.com/padp721",
+            "color": "#3B5998",
+            "icon_type": "fab",
+            "icon": "facebook"
         },
         {
-            "name":"X",
-            "link":"https://twitter.com/padp721",
-            "color":"black",
-            "icon_type":"fab",
-            "icon":"x-twitter"
+            "name": "X",
+            "url": "https://twitter.com/padp721",
+            "color": "black",
+            "icon_type": "fab",
+            "icon": "x-twitter"
         },
         {
-            "name":"Threads",
-            "link":"https://www.threads.net/@padp721",
-            "color":"#101010",
-            "icon_type":"fab",
-            "icon":"threads"
+            "name": "Threads",
+            "url": "https://www.threads.net/@padp721",
+            "color": "#101010",
+            "icon_type": "fab",
+            "icon": "threads"
         },
         {
-            "name":"E-Mail",
-            "link":"mailto:anggadp91@hotmail.com",
-            "color":"crimson",
-            "icon_type":"fas",
-            "icon":"envelope"
+            "name": "E-Mail",
+            "url": "mailto:anggadp91@hotmail.com",
+            "color": "crimson",
+            "icon_type": "fas",
+            "icon": "envelope"
         },
         {
-            "name":"Telegram",
-            "link":"https://t.me/padp721",
-            "color":"#24a6ea",
-            "icon_type":"fab",
-            "icon":"telegram"
+            "name": "Telegram",
+            "url": "https://t.me/padp721",
+            "color": "#24a6ea",
+            "icon_type": "fab",
+            "icon": "telegram"
         },
         {
-            "name":"Discord",
-            "link":"https://discordapp.com/users/318630119373799426",
-            "color":"#545df4",
-            "icon_type":"fab",
-            "icon":"discord"
+            "name": "Discord",
+            "url": "https://discordapp.com/users/318630119373799426",
+            "color": "#545df4",
+            "icon_type": "fab",
+            "icon": "discord"
         },
         {
-            "name":"Spotify",
-            "link":"https://open.spotify.com/user/randomize721?si=8ebc39a59bbe4243",
-            "color":"#2ada5d",
-            "icon_type":"fab",
-            "icon":"spotify"
+            "name": "Spotify",
+            "url": "https://open.spotify.com/user/randomize721?si=8ebc39a59bbe4243",
+            "color": "#2ada5d",
+            "icon_type": "fab",
+            "icon": "spotify"
         },
         {
-            "name":"Steam",
-            "link":"https://steamcommunity.com/id/randomize721/",
-            "color":"#182a43",
-            "icon_type":"fab",
-            "icon":"steam"
+            "name": "Steam",
+            "url": "https://steamcommunity.com/id/randomize721/",
+            "color": "#182a43",
+            "icon_type": "fab",
+            "icon": "steam"
         }
     ]
 }

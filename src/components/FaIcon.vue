@@ -17,7 +17,13 @@ import {
     faEnvelope
 } from '@fortawesome/free-solid-svg-icons'
 
-defineProps(['type', 'icon', 'spin'])
+type Props = {
+    type: string,
+    icon: string,
+    spin?: boolean
+}
+
+defineProps<Props>()
 // Brands
 library.add(
     faXTwitter,
@@ -36,7 +42,6 @@ library.add(
     faEnvelope
 )
 </script>
-
 <template>
     <FontAwesomeIcon :icon="[type, icon]" :spin="spin" />
 </template>

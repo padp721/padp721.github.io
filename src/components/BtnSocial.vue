@@ -4,14 +4,14 @@ import FaIcon from './FaIcon.vue';
 
 type Props = {
     url: string,
-    icon_type: string,
+    iconType: string,
     icon: string,
-    bg_color: string
+    bgColor: string
 }
 
-const { bg_color } = defineProps<Props>()
-const background = reactive({
-    background: bg_color,
+const { bgColor } = defineProps<Props>()
+const btnStyle = reactive({
+    background: bgColor,
 })
 
 function openNewTab(url: string) {
@@ -20,9 +20,9 @@ function openNewTab(url: string) {
 </script>
 
 <template>
-    <button @click="() => openNewTab(url)" :style="background" :class="{ instagram: icon === 'instagram' }"
+    <button @click="() => openNewTab(url)" :style="btnStyle" :class="{ instagram: icon === 'instagram' }"
         class="flex m-1 text-4xl w-14 h-14 justify-center items-center rounded-2xl transition ease-in-out hover:shadow-lg hover:shadow-[#00000080] hover:-translate-y-1 hover:scale-110">
-        <FaIcon :type="icon_type" :icon="icon" />
+        <FaIcon :type="iconType" :icon="icon" />
     </button>
 </template>
 

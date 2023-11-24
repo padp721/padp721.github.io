@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import {
@@ -42,6 +42,7 @@ library.add(
     faEnvelope
 )
 </script>
+
 <template>
     <FontAwesomeIcon :icon="[type, icon]" :spin="spin" />
 </template>

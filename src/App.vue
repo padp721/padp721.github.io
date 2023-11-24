@@ -1,8 +1,9 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import CardMain from './components/CardMain.vue';
 import BtnSocial from './components/BtnSocial.vue';
 import socials from './common/social.json';
 </script>
+
 <template>
 	<div class="container">
 		<CardMain>

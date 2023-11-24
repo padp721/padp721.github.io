@@ -18,12 +18,14 @@ function openNewTab(url: string) {
     window.open(url, '_blank', 'noreferrer')
 }
 </script>
+
 <template>
     <button @click="() => openNewTab(url)" :style="background" :class="{ instagram: icon === 'instagram' }"
         class="flex m-1 text-4xl w-14 h-14 justify-center items-center rounded-2xl transition ease-in-out hover:shadow-lg hover:shadow-[#00000080] hover:-translate-y-1 hover:scale-110">
         <FaIcon :type="icon_type" :icon="icon" />
     </button>
 </template>
+
 <style scoped>
 .instagram {
     background: #f09433;
